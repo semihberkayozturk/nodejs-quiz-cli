@@ -11,7 +11,7 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/semihberkayozturk/nodejs-quiz-cli"
     },
     "license": "ISC",
     "bin": "./index.js",
