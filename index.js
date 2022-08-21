@@ -154,7 +154,6 @@ async function q6() {
     return handleAnswer(inputs.q6 == "The situation where callbacks are nested within other callbacks several levels deep, potentially making it difficult to understand and maintain the code.");
 }
 
-
 //--------------
 console.clear();
 await header();

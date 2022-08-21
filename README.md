@@ -1,6 +1,6 @@
-# A fancy CLI to test your Node.js knowledge.
+# A fancy CLI tool to test your Node.js knowledge.
 
-## Usage
+## Take the Test
 
 ```
 npx nodejs-quiz-cli
