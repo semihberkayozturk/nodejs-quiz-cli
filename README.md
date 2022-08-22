@@ -6,5 +6,5 @@
 npx nodejs-quiz-cli
 ```
 
-![Ekran Resmi 2022-08-21 19 43 57](https://user-images.githubusercontent.com/90466553/185802075-108104c7-dc9a-465a-9644-6a0a43debc7d.png)
+![Ekran Resmi 2022-08-22 11 34 49](https://user-images.githubusercontent.com/90466553/185877407-14a159a8-5b40-472f-875b-ebac32c5f645.png)
 
