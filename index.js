@@ -148,10 +148,10 @@ async function q6() {
             "A group with a certain equality between its members",
             "A JavaScript framework",
             "Result of using so much for loops in JavaScript",
-            "The situation where callbacks are nested within other callbacks several levels deep, potentially making it difficult to understand and maintain the code."
+            "The situation where callbacks are nested within other callbacks several levels deep."
         ],
     });
-    return handleAnswer(inputs.q6 == "The situation where callbacks are nested within other callbacks several levels deep, potentially making it difficult to understand and maintain the code.");
+    return handleAnswer(inputs.q6 == "The situation where callbacks are nested within other callbacks several levels deep.");
 }
 
 //--------------
@@ -164,4 +164,4 @@ await q3();
 await q4();
 await q5();
 await q6();
-winner();
+await winner();
