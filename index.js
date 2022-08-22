@@ -13,7 +13,7 @@ const sleep = () => new Promise((h) => setTimeout(h, 3000));
 
 async function header() {
     const rainbowHeader = chalkAnimation.rainbow(
-        'Test Your Node.js Knowledge!\n'
+        'Become A Node.js Expert!\n'
     );
     await sleep();
     rainbowHeader.stop();
@@ -42,7 +42,7 @@ async function askName() {
     const inputs = await inquirer.prompt({
         name: "player_name",
         type: "input",
-        message: "What is your name ?",
+        message: "What is your name ?\n",
         default () {
             return "Player";
         }
@@ -52,7 +52,7 @@ async function askName() {
 
 function winner() {
     console.clear();
-    figlet(`Congrats , ${userName} !\n`, (err, data) => {
+    figlet(`Congrats ${userName} !\nYou're A Node.js Expert!`, (err, data) => {
         console.log(gradient.summer.multiline(data) + '\n');
 
         console.log(
@@ -164,4 +164,4 @@ await q3();
 await q4();
 await q5();
 await q6();
-await winner();
+winner();
